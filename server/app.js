@@ -10,8 +10,8 @@ app.get("/hello", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/api/about", (req, res) => {
-  res.send({ title: "Build Deploy Test, 2025-10-21 --" });
+app.get("/api/board", (req, res) => {
+  res.send({ title: "Build Deploy Test, 2025-10-21" });
 });
 
 const path = require("path");
