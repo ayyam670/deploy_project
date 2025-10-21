@@ -10,7 +10,7 @@ app.get("/hello", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/api/board", (req, res) => {
+app.get("/api/about", (req, res) => {
   res.send({ title: "Build Deploy Test, 2025-10-21 --" });
 });
 
