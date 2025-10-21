@@ -11,7 +11,7 @@ app.get("/hello", (req, res) => {
 });
 
 app.get("/api/board", (req, res) => {
-  res.send({ title: "Build Deploy Test, 2025-10-21" });
+  res.send({ title: "Build Deploy Test, 2025-10-21 --" });
 });
 
 const path = require("path");
